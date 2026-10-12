@@ -233,7 +233,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
+        <span>© 2024 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
         <div className="footer-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -251,15 +251,6 @@ function HomePage() {
       <TopBar />
       <main>
         <section className="journey-block">
-          <video
-            className="journey-video"
-            src="/videos/141482-777708179_medium.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            aria-label="Cinematic background video"
-          />
           <div className="journey-copy">
             <h3>Turning Ideas Into Icons</h3>
             <p>
