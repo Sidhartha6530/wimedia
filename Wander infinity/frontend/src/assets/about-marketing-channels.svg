@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" fill="none">
+  <defs>
+    <linearGradient id="campaignBg" x1="52" y1="39" x2="1139" y2="793" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#162641"/>
+      <stop offset=".52" stop-color="#273A56"/>
+      <stop offset="1" stop-color="#111B2D"/>
+    </linearGradient>
+    <radialGradient id="campaignGlow" cx="0" cy="0" r="1" gradientTransform="matrix(0 375 -482 0 600 401)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4B67E" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#172844" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="megaphone" x1="460" y1="296" x2="747" y2="521" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4E0BA"/>
+      <stop offset=".48" stop-color="#D5B477"/>
+      <stop offset="1" stop-color="#96724C"/>
+    </linearGradient>
+    <linearGradient id="card" x1="187" y1="168" x2="378" y2="363" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#E8EDF2"/>
+    </linearGradient>
+    <filter id="softShadow" x="107" y="104" width="1004" height="627" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18"/>
+      <feOffset dy="15"/>
+      <feComponentTransfer><feFuncA slope=".36" type="linear"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#E4CCA0" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+  <path fill="url(#campaignBg)" d="M0 0h1200v820H0z"/>
+  <path fill="url(#campaignGlow)" d="M0 0h1200v820H0z"/>
+  <path fill="url(#dots)" d="M0 0h1200v820H0z"/>
+  <g stroke="#E6D3B0" stroke-opacity=".27">
+    <circle cx="601" cy="414" r="275"/>
+    <circle cx="601" cy="414" r="330" stroke-dasharray="2 12"/>
+    <circle cx="601" cy="414" r="389" stroke-dasharray="1 15"/>
+  </g>
+  <g stroke="#D9BD8C" stroke-opacity=".62" stroke-width="2" stroke-dasharray="6 9">
+    <path d="m376 287 154 79m289-67-128 83m-281 79 134-20m269 8 85 40m-256 57 52 96"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="162" y="143" width="216" height="218" rx="18" fill="url(#card)"/>
+    <rect x="180" y="161" width="180" height="106" rx="11" fill="#D4E0E1"/>
+    <path d="M180 245c29-23 45-52 71-41 24 10 38 28 62 7 18-16 31-10 47 2v54H180v-22Z" fill="#829A96"/>
+    <circle cx="310" cy="195" r="18" fill="#E5C89B"/>
+    <path d="M263 226c17-27 50-23 64 0l8 28h-80l8-28Z" fill="#39506A"/>
+    <circle cx="195" cy="290" r="7" fill="#C77263"/>
+    <circle cx="216" cy="290" r="7" fill="#D9B779"/>
+    <circle cx="237" cy="290" r="7" fill="#789A92"/>
+    <rect x="256" y="286" width="93" height="7" rx="3.5" fill="#8D99A8"/>
+    <rect x="181" y="315" width="153" height="8" rx="4" fill="#35455C"/>
+    <rect x="181" y="332" width="120" height="6" rx="3" fill="#AAB2BC"/>
+    <rect x="831" y="143" width="216" height="218" rx="18" fill="url(#card)"/>
+    <text x="852" y="177" fill="#243850" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">SEARCH INTENT</text>
+    <circle cx="932" cy="250" r="43" stroke="#94A8B4" stroke-width="12"/>
+    <path d="m963 281 33 33" stroke="#94A8B4" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="932" cy="250" r="24" fill="#E6EBEF"/>
+    <path d="M921 251h22m-11-11v22" stroke="#4A6D91" stroke-width="3" stroke-linecap="round"/>
+    <rect x="865" y="325" width="150" height="7" rx="3.5" fill="#B3BDC7"/>
+    <rect x="881" y="343" width="118" height="5" rx="2.5" fill="#D0D6DC"/>
+    <rect x="163" y="480" width="216" height="207" rx="18" fill="url(#card)"/>
+    <rect x="181" y="498" width="180" height="92" rx="10" fill="#E3E9EE"/>
+    <rect x="193" y="511" width="156" height="14" rx="7" fill="#7186A0"/>
+    <rect x="193" y="535" width="130" height="7" rx="3.5" fill="#A4B0BE"/>
+    <rect x="193" y="551" width="146" height="7" rx="3.5" fill="#A4B0BE"/>
+    <rect x="193" y="568" width="82" height="12" rx="6" fill="#D9B779"/>
+    <rect x="181" y="607" width="180" height="61" rx="9" fill="#F0F2F4"/>
+    <path d="M201 648v-15m23 15v-27m23 27v-20m23 20v-35m23 35v-26m23 26v-42m23 42v-19" stroke="#6D8E95" stroke-width="8" stroke-linecap="round"/>
+    <rect x="831" y="480" width="216" height="207" rx="18" fill="url(#card)"/>
+    <path d="M851 517a9 9 0 0 1 9-9h158a9 9 0 0 1 9 9v94H851v-94Z" fill="#E8E1D4"/>
+    <path d="M851 525h176v86H851v-86Z" fill="#344A63"/>
+    <path d="M851 589c36-29 62-36 90-14 25 20 45 9 86-28v64H851v-22Z" fill="#78938E"/>
+    <circle cx="970" cy="552" r="17" fill="#D9B779"/>
+    <path d="M937 581c10-23 49-24 64 0" stroke="#F6EBD6" stroke-width="12" stroke-linecap="round"/>
+    <rect x="851" y="627" width="132" height="8" rx="4" fill="#35455C"/>
+    <rect x="851" y="645" width="169" height="6" rx="3" fill="#AAB2BC"/>
+    <rect x="851" y="660" width="119" height="6" rx="3" fill="#C2C9D1"/>
+    <circle cx="600" cy="415" r="143" fill="#101A2B" fill-opacity=".5"/>
+    <circle cx="600" cy="415" r="130" fill="#213752" stroke="#DCC79F" stroke-opacity=".65" stroke-width="2"/>
+    <circle cx="600" cy="415" r="112" stroke="#F0DEBD" stroke-opacity=".18" stroke-dasharray="2 9"/>
+    <path d="M555 362c0-10 11-16 20-10l125 77c9 6 9 19 0 25l-125 77c-9 6-20 0-20-10V362Z" fill="url(#megaphone)"/>
+    <path d="M555 382h-24c-17 0-31 14-31 31v37c0 17 14 31 31 31h24" stroke="#E5D2AD" stroke-width="13" stroke-linecap="round"/>
+    <path d="m532 481 18 56c5 15 22 22 36 14l15-9-25-66" fill="#B99A6B" stroke="#F0DEBD" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M721 363c19 14 30 31 30 52s-11 38-30 52m19-126c29 21 46 47 46 74s-17 53-46 74m19-159c39 28 62 58 62 85s-23 57-62 85" stroke="#E9D5AF" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+    <path d="M480 331 458 309m252 0-22 22M480 500l-22 22m252 0-22-22" stroke="#D9B779" stroke-width="3" stroke-linecap="round"/>
+    <rect x="492" y="578" width="216" height="46" rx="23" fill="#D9B779"/>
+    <text x="600" y="606" fill="#1C304C" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">ONE CONNECTED CAMPAIGN</text>
+    <circle cx="530" cy="366" r="17" fill="#E8EEF0"/>
+    <path d="M522 366c0-6 4-10 8-10s8 4 8 10-4 10-8 10-8-4-8-10Z" fill="#71949B"/>
+    <path d="M516 383c3-8 25-8 28 0" stroke="#71949B" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="682" cy="464" r="17" fill="#F1E6D3"/>
+    <path d="M676 457h12v13h-12z" fill="#C87E6A"/>
+    <path d="m675 457 7 6 7-6" stroke="#fff" stroke-width="1.5"/>
+  </g>
+  <g fill="#F0DDBB">
+    <circle cx="104" cy="404" r="2"/><circle cx="1091" cy="402" r="2"/>
+    <circle cx="466" cy="112" r="1.8"/><circle cx="747" cy="718" r="2"/>
+    <circle cx="1090" cy="709" r="2.5"/><circle cx="110" cy="714" r="1.7"/>
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="backdrop" x1="64" y1="35" x2="1126" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14233F"/>
+      <stop offset=".55" stop-color="#253C62"/>
+      <stop offset="1" stop-color="#101A30"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="matrix(0 440 -570 0 600 400)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8B77C" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#172744" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="214" y1="122" x2="964" y2="678" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#EAEFF6"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="353" y1="527" x2="740" y2="354" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#496FAD"/>
+      <stop offset="1" stop-color="#77AA9D"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="870" y1="187" x2="1058" y2="626" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#253754"/>
+      <stop offset="1" stop-color="#0C172B"/>
+    </linearGradient>
+    <filter id="shadow" x="107" y="79" width="1012" height="685" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="22"/>
+      <feOffset dy="20"/>
+      <feComponentTransfer><feFuncA slope=".34" type="linear"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="texture" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#F3D9A8" fill-opacity=".13"/>
+    </pattern>
+  </defs>
+  <path fill="url(#backdrop)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#aura)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#texture)" d="M0 0h1200v800H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="169" y="133" width="751" height="514" rx="24" fill="url(#screen)"/>
+    <path d="M193 133h703a24 24 0 0 1 24 24v52H169v-52a24 24 0 0 1 24-24Z" fill="#fff"/>
+    <circle cx="197" cy="170" r="5" fill="#D57F6D"/>
+    <circle cx="215" cy="170" r="5" fill="#D9B779"/>
+    <circle cx="233" cy="170" r="5" fill="#77A493"/>
+    <rect x="273" y="160" width="186" height="18" rx="9" fill="#E9EDF2"/>
+    <rect x="196" y="234" width="174" height="378" rx="12" fill="#F1F3F6"/>
+    <rect x="215" y="256" width="106" height="9" rx="4.5" fill="#AAB4C2"/>
+    <rect x="215" y="286" width="127" height="37" rx="8" fill="#203A61"/>
+    <circle cx="232" cy="304" r="6" fill="#E2C38A"/>
+    <rect x="247" y="300" width="76" height="8" rx="4" fill="#fff" fill-opacity=".9"/>
+    <circle cx="231" cy="349" r="7" fill="#91A0B3"/>
+    <rect x="249" y="345" width="77" height="8" rx="4" fill="#BAC3CF"/>
+    <circle cx="231" cy="384" r="7" fill="#91A0B3"/>
+    <rect x="249" y="380" width="65" height="8" rx="4" fill="#BAC3CF"/>
+    <circle cx="231" cy="419" r="7" fill="#91A0B3"/>
+    <rect x="249" y="415" width="82" height="8" rx="4" fill="#BAC3CF"/>
+    <circle cx="231" cy="454" r="7" fill="#91A0B3"/>
+    <rect x="249" y="450" width="59" height="8" rx="4" fill="#BAC3CF"/>
+    <rect x="215" y="512" width="135" height="1" fill="#D7DDE5"/>
+    <circle cx="231" cy="540" r="13" fill="#D9E4E5"/>
+    <circle cx="231" cy="536" r="4" fill="#5D7D85"/>
+    <path d="M222 549c2-7 15-7 18 0" stroke="#5D7D85" stroke-width="2" stroke-linecap="round"/>
+    <rect x="251" y="533" width="75" height="7" rx="3.5" fill="#8290A1"/>
+    <rect x="251" y="546" width="56" height="6" rx="3" fill="#C0C8D2"/>
+    <text x="397" y="266" fill="#18283F" font-family="Arial,sans-serif" font-size="23" font-weight="700">Campaign overview</text>
+    <text x="397" y="290" fill="#788494" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.4">A CONNECTED VIEW OF WHAT'S WORKING</text>
+    <rect x="397" y="313" width="151" height="91" rx="10" fill="#fff" stroke="#E1E5EA"/>
+    <text x="414" y="339" fill="#7B8796" font-family="Arial,sans-serif" font-size="11">AUDIENCE REACH</text>
+    <path d="M414 379h12l9-13 10 8 14-21 12 13 18-18 13 5 18-20" stroke="#5477AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="520" cy="333" r="4" fill="#5477AE"/>
+    <rect x="565" y="313" width="151" height="91" rx="10" fill="#fff" stroke="#E1E5EA"/>
+    <text x="582" y="339" fill="#7B8796" font-family="Arial,sans-serif" font-size="11">ENGAGEMENT</text>
+    <rect x="583" y="361" width="12" height="27" rx="4" fill="#9EB6C7"/>
+    <rect x="603" y="350" width="12" height="38" rx="4" fill="#809EAD"/>
+    <rect x="623" y="367" width="12" height="21" rx="4" fill="#C7A879"/>
+    <rect x="643" y="342" width="12" height="46" rx="4" fill="#6787A6"/>
+    <rect x="663" y="354" width="12" height="34" rx="4" fill="#77A493"/>
+    <rect x="733" y="313" width="151" height="91" rx="10" fill="#fff" stroke="#E1E5EA"/>
+    <text x="750" y="339" fill="#7B8796" font-family="Arial,sans-serif" font-size="11">CONVERSION PATH</text>
+    <circle cx="758" cy="373" r="8" fill="#DBE6E8"/>
+    <circle cx="795" cy="373" r="8" fill="#C7D3E4"/>
+    <circle cx="832" cy="373" r="8" fill="#E5D7BD"/>
+    <path d="M768 373h17m20 0h17" stroke="#8795A7" stroke-width="2" stroke-dasharray="3 4"/>
+    <rect x="397" y="425" width="487" height="164" rx="12" fill="#fff" stroke="#E1E5EA"/>
+    <text x="417" y="451" fill="#18283F" font-family="Arial,sans-serif" font-size="13" font-weight="700">Campaign performance</text>
+    <text x="417" y="469" fill="#8A95A3" font-family="Arial,sans-serif" font-size="10">A clearer picture, over time</text>
+    <path d="M423 548h435M423 520h435M423 492h435" stroke="#E8ECF1" stroke-width="1"/>
+    <path d="m430 550 57-20 49 7 51-35 49 12 60-38 48 7 57-38 49 1" stroke="url(#chart)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M430 550c22-8 37-14 57-20s30 10 49 7 31-23 51-35 32 7 49 12 41-26 60-38 32 7 48 7 41-28 57-38 31 0 49 1 35-23 49-26" fill="url(#chart)" fill-opacity=".13"/>
+    <circle cx="745" cy="476" r="4" fill="#5477AE"/>
+    <circle cx="801" cy="438" r="4" fill="#77A493"/>
+    <rect x="203" y="114" width="112" height="32" rx="16" fill="#D9B779"/>
+    <circle cx="222" cy="130" r="5" fill="#203A61"/>
+    <text x="235" y="134" fill="#203A61" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">LIVE CAMPAIGN</text>
+    <g transform="rotate(4 986 412)">
+      <rect x="884" y="191" width="187" height="443" rx="30" fill="url(#phone)" stroke="#E8D9BD" stroke-opacity=".72" stroke-width="2"/>
+      <rect x="899" y="222" width="157" height="371" rx="19" fill="#F6F4EF"/>
+      <rect x="949" y="204" width="59" height="8" rx="4" fill="#8C98A9"/>
+      <circle cx="912" cy="245" r="10" fill="#D9B779"/>
+      <rect x="929" y="240" width="58" height="6" rx="3" fill="#35435A"/>
+      <rect x="929" y="250" width="39" height="5" rx="2.5" fill="#9AA4B2"/>
+      <circle cx="1035" cy="245" r="2" fill="#35435A"/>
+      <circle cx="1043" cy="245" r="2" fill="#35435A"/>
+      <circle cx="1051" cy="245" r="2" fill="#35435A"/>
+      <rect x="909" y="269" width="137" height="179" rx="12" fill="#D9E3E5"/>
+      <path d="M909 397c34-39 53-73 76-63s36 47 61 20v94H909v-51Z" fill="#829B98"/>
+      <circle cx="1009" cy="320" r="25" fill="#E5C69B"/>
+      <path d="M971 356c15-29 61-29 77 0l8 53h-91l6-53Z" fill="#354C68"/>
+      <path d="M909 427c25-25 46-46 65-42s31 34 72 0" stroke="#F8F3E8" stroke-opacity=".8" stroke-width="2"/>
+      <circle cx="916" cy="469" r="5" fill="#C77263"/>
+      <path d="M916 469h14m13 0h12m13 0h12" stroke="#93A0AF" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="1034" cy="469" r="5" fill="#6685A4"/>
+      <rect x="910" y="491" width="118" height="8" rx="4" fill="#35435A"/>
+      <rect x="910" y="507" width="105" height="6" rx="3" fill="#A5ADB7"/>
+      <rect x="910" y="521" width="114" height="6" rx="3" fill="#A5ADB7"/>
+      <rect x="910" y="544" width="79" height="23" rx="11.5" fill="#203A61"/>
+      <text x="927" y="559" fill="#fff" font-family="Arial,sans-serif" font-size="8" font-weight="700" letter-spacing=".8">DISCOVER MORE</text>
+    </g>
+  </g>
+  <g fill="#EBD8B7">
+    <circle cx="114" cy="282" r="2"/><circle cx="1081" cy="126" r="2"/>
+    <circle cx="1099" cy="707" r="2.5"/><circle cx="105" cy="641" r="1.8"/>
+    <circle cx="784" cy="721" r="1.8"/><circle cx="405" cy="83" r="1.6"/>
+  </g>
+</svg>

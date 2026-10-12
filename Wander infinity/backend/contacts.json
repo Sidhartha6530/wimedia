@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "subject": "Project inquiry",
+    "message": "I want to build a website."
+  },
+  {
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "subject": "Project inquiry",
+    "message": "Tell us about your vision..."
+  },
+  {
+    "name": "Reddy Doe",
+    "email": "Reddy@gmail.com",
+    "subject": "Project inquiry",
+    "message": "Tell us about your vision..."
+  },
+  {
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "subject": "Project inquiry",
+    "message": "Tell us about your vision..."
+  }
+]
