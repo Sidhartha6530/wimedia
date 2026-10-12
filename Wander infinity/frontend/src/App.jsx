@@ -233,7 +233,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2024 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
+        <span>© 2026 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
         <div className="footer-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
