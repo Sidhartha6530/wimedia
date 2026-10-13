@@ -233,7 +233,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
+        <span>© 2024 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
         <div className="footer-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -250,16 +250,24 @@ function HomePage() {
     <div className="page-shell">
       <TopBar />
       <main>
-        <section className="journey-block">
-          <div className="journey-copy">
-            <h3>Turning Ideas Into Icons</h3>
+        <section className="hero">
+          <div className="hero-background" aria-hidden="true" />
+          <div className="hero-pattern" aria-hidden="true" />
+
+          <div className="hero-inner">
+            <span className="eyebrow">Strategic • creative • digital growth</span>
+            <h1>
+              We build <span>brands</span> people remember.
+            </h1>
             <p>
-              Founded in the quiet spaces between noise and signal, WANDER INFINITY MEDIA began
-              as a collective of digital artisans dedicated to the craft of high-end visual
-              storytelling. We believe that true luxury in the digital age is found in meticulous
-              attention to detail, the thoughtful use of negative space, and interfaces that feel
-              less like tools and more like finely crafted instruments.
+              Wander Infinity Media helps ambitious businesses turn bold ideas into measurable growth
+              through strategy, storytelling, and digital experience design.
             </p>
+
+            <div className="journey-actions">
+              <Link className="button button-primary" to="/contact">Book a consultation</Link>
+              <Link className="button button-secondary" to="/portfolio">View projects</Link>
+            </div>
           </div>
         </section>
 
