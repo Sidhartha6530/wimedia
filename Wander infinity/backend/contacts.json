@@ -1,26 +1,32 @@
 [
   {
-    "name": "Alice Smith",
-    "email": "alice@example.com",
-    "subject": "Project inquiry",
-    "message": "I want to build a website."
+    "name": "Sai Sidhartha Reddy Sadula",
+    "email": "sidhartha6530@gmail.com",
+    "phone": "7569218232",
+    "company": "WIM",
+    "website": "",
+    "projectType": "Digital marketing",
+    "budget": "To be discussed",
+    "timeline": "As soon as possible",
+    "preferredContact": "Phone call",
+    "location": "Hyderabad",
+    "referralSource": "Referral",
+    "subject": "WIM",
+    "message": "do something"
   },
   {
-    "name": "Jane Doe",
-    "email": "jane@example.com",
-    "subject": "Project inquiry",
-    "message": "Tell us about your vision..."
-  },
-  {
-    "name": "Reddy Doe",
-    "email": "Reddy@gmail.com",
-    "subject": "Project inquiry",
-    "message": "Tell us about your vision..."
-  },
-  {
-    "name": "Jane Doe",
-    "email": "jane@example.com",
-    "subject": "Project inquiry",
-    "message": "Tell us about your vision..."
+    "name": "Kailash Sadula",
+    "email": "sidhartha6530@gmail.com",
+    "phone": "+917569218232",
+    "company": "iph",
+    "website": "",
+    "projectType": "Digital marketing",
+    "budget": "Under \u20b950,000",
+    "timeline": "Within 1 month",
+    "preferredContact": "Phone call",
+    "location": "Hyderabad",
+    "referralSource": "Social media",
+    "subject": "WIM",
+    "message": "egudysgajhb"
   }
 ]

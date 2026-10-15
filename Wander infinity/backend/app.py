@@ -2,11 +2,31 @@ import json
 import os
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from openpyxl import Workbook
 
 app = Flask(__name__)
 CORS(app)
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), 'contacts.json')
+CONTACT_FIELDS = (
+    "name",
+    "email",
+    "phone",
+    "company",
+    "website",
+    "projectType",
+    "budget",
+    "timeline",
+    "preferredContact",
+    "location",
+    "referralSource",
+    "subject",
+    "message",
+)
+
+
+def excel_file_path():
+    return os.path.splitext(DATA_FILE)[0] + '.xlsx'
 
 
 def load_contacts():
@@ -25,6 +45,38 @@ def save_contacts(contacts):
     with open(DATA_FILE, 'w', encoding='utf-8') as file:
         json.dump(contacts, file, indent=2)
 
+    export_contacts_to_excel(contacts)
+
+
+def export_contacts_to_excel(contacts):
+    workbook = Workbook()
+    worksheet = workbook.active
+    worksheet.title = "Contacts"
+    worksheet.append(CONTACT_FIELDS)
+
+    for contact in contacts:
+        row = []
+        for field in CONTACT_FIELDS:
+            value = contact.get(field, "")
+            row.append("" if value is None else str(value))
+        worksheet.append(row)
+
+    worksheet.freeze_panes = "A2"
+    worksheet.auto_filter.ref = worksheet.dimensions
+
+    for column_cells in worksheet.columns:
+        column_letter = column_cells[0].column_letter
+        width = max(len(str(cell.value or "")) for cell in column_cells)
+        worksheet.column_dimensions[column_letter].width = min(width + 2, 60)
+
+    for row in worksheet.iter_rows():
+        for cell in row:
+            cell.number_format = "@"
+            if isinstance(cell.value, str):
+                cell.data_type = "s"
+
+    workbook.save(excel_file_path())
+
 
 @app.get('/api/health')
 def health():
@@ -33,7 +85,10 @@ def health():
 
 @app.get('/api/contacts')
 def get_contacts():
-    return jsonify(load_contacts())
+    contacts = load_contacts()
+    if not os.path.exists(excel_file_path()):
+        export_contacts_to_excel(contacts)
+    return jsonify(contacts)
 
 
 @app.post('/api/contact')
