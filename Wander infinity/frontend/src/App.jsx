@@ -233,7 +233,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
+        <span>© 2024 WANDER INFINITY MEDIA. ALL RIGHTS RESERVED.</span>
         <div className="footer-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -988,16 +988,39 @@ function ContactPage() {
   )
 }
 
+function WhatsAppChat() {
+  const message = encodeURIComponent('Hi Wander Infinity Media, I would like to get in touch.')
+
+  return (
+    <a
+      className="whatsapp-chat"
+      href={`https://wa.me/918019555082?text=${message}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with Wander Infinity Media on WhatsApp"
+      title="Chat with us on WhatsApp"
+    >
+      <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <path d="M16 3.25a12.75 12.75 0 0 0-10.9 19.4L3.5 28.5l6.2-1.6A12.75 12.75 0 1 0 16 3.25Z" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinejoin="round" />
+        <path d="M11 9.2c-.4-.4-1-.3-1.4.2-.6.6-.9 1.4-.8 2.3.2 1.9 1.7 4.2 3.6 6.1 1.9 1.8 4.2 3.2 6.1 3.4.9.1 1.7-.2 2.3-.8.5-.5.6-1.1.2-1.5l-2.1-1.7c-.5-.4-1-.3-1.4.1l-.8.9c-.2.3-.6.3-.9.1-1.3-.7-2.6-2-3.4-3.3-.2-.3-.2-.7.1-.9l.9-.8c.4-.4.5-.9.1-1.4Z" fill="currentColor" />
+      </svg>
+    </a>
+  )
+}
+
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/services" element={<ServicesPage />} />
-      <Route path="/services/:serviceName" element={<ServiceDetailPage />} />
-      <Route path="/portfolio" element={<PortfolioPage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/contact" element={<ContactPage />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/services/:serviceName" element={<ServiceDetailPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+      <WhatsAppChat />
+    </>
   )
 }
 
