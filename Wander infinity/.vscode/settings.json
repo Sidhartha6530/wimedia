@@ -1,0 +1,11 @@
+{
+    "json.schemaDownload.trustedDomains": {
+        "openapi.vercel.sh": true
+    },
+    "json.schemas": [
+        {
+      "fileMatch": ["vercel.json"],
+      "url": "https://openapi.vercel.sh/vercel.json"
+    }
+    ]
+}
