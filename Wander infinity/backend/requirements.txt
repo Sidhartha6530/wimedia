@@ -1,3 +1,0 @@
-Flask>=3.1,<4
-Flask-Cors>=6,<7
-openpyxl>=3.1,<4
