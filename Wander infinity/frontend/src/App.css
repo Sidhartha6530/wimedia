@@ -210,8 +210,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-height: 60px;
-    padding: 8px 20px 8px;
+    min-height: 52px;
+    padding: 4px 20px;
     background: #111111;
     border-bottom: 1px solid rgba(22, 63, 45, 0.12);
     backdrop-filter: blur(12px);
@@ -1425,6 +1425,17 @@ body {
   box-shadow: 0 8px 30px rgba(17, 17, 17, 0.04);
 }
 
+.brand-wrap {
+  flex: 0 0 auto;
+}
+
+.brand-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
 .brand-text,
 .brand-name,
 .brand-subtitle {
@@ -2160,6 +2171,11 @@ color: #96968D;
 @media (max-width: 640px) {
   .topbar {
     background: rgba(245,243,236,0.97);
+    padding-block: 4px;
+  }
+
+  .brand-logo {
+    width: 120px;
   }
 
   .hero h1 {
