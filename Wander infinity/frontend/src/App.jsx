@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom'
 import heroArtwork from './assets/about-campaign-analytics.svg'
 import storyArtwork from './assets/about-marketing-channels.svg'
+import brandLogo from './assets/wander-infinity-logo.png'
 import './App.css'
 
 function AnimatedNumber({ value }) {
@@ -181,12 +182,7 @@ function TopBar() {
   return (
     <header className="topbar">
       <Link to="/" className="brand-wrap" aria-label="Wander Infinity home page">
-        <div className="brand-mark" aria-hidden="true">
-          <span className="brand-ring"></span>
-        </div>
-        <div className="brand-text">
-          <span className="brand-name">WANDER INFINITY MEDIA</span>
-        </div>
+        <img className="brand-logo" src={brandLogo} alt="Wander Infinity Media" />
       </Link>
 
       <nav className="main-nav" aria-label="Main navigation">
